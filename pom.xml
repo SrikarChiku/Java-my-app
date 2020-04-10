@@ -6,7 +6,7 @@
 
   <groupId>com.jfrog.app</groupId>
   <artifactId>jfrog-app</artifactId>
-  <version>3.4.55-SNAPSHOT</version>
+  <version>4.2-SNAPSHOT</version>
 
   <name>jfrog-app</name>
   <!-- FIXME change it to the project's website -->
