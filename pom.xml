@@ -6,15 +6,18 @@
 
   <groupId>com.jfrog.app</groupId>
   <artifactId>jfrog-app</artifactId>
-  <version>4.2.6-SNAPSHOT</version>
+  <version>${major}.${minor}.${patch}.${buildNumber}-SNAPSHOT</version>
 
   <name>jfrog-app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
-	  <version></version>
-		  
+    
+	  <major>1</major>
+	  <minor>0</minor>
+          <patch>0</patch>
+	  <buildNumber>1</buildNumber>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
