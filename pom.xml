@@ -6,7 +6,7 @@
 
   <groupId>com.jfrog.app</groupId>
   <artifactId>jfrog-app</artifactId>
-  <version>${major}.${minor}.${patch}.${buildNumber}-SNAPSHOT</version>
+  <version>SNAPSHOT-${major}.${minor}.${patch}.${buildNumber}</version>
 
   <name>jfrog-app</name>
   <!-- FIXME change it to the project's website -->
@@ -14,10 +14,10 @@
 
   <properties>
     
-	  <major>1</major>
-	  <minor>0</minor>
-          <patch>0</patch>
-	  <buildNumber>1</buildNumber>
+	  <major>4</major>
+	  <minor>2</minor>
+          <patch>6</patch>
+	  <buildNumber></buildNumber>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
