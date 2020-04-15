@@ -47,6 +47,10 @@ pipeline {
           }
       }
       stage ('deploy'){
+      when{
+      branch 'master'
+      }
+
           steps{
                //bat "mvn -s settings.xml -Dmaven.test.skip=true deploy"
                bat "jfrog rt u target/jfrog-app-SNAPSHOT-*.*.*.*.jar libs-snapshot-local/com/jfrog/app/jfrog-app/"
