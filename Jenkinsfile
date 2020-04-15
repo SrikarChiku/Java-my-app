@@ -1,3 +1,3 @@
 @Library('jenkins-library@master') _
-myPipeline()
+myPipeline(buildNumber:"${BUILD_NUMBER}")
 
