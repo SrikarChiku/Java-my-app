@@ -1,3 +1,3 @@
-@Library('jenkins-library@master')
+@Library('jenkins-library@master') _
 myPipeline()
 
